@@ -2,7 +2,7 @@
 A polite web-crawler with a specific frontier management strategy.
 
 # Politeness Policy
-Before the first page from a given domain is crawled, its robots.txt file is fetched and it is made sure that the crawer only rquests pages that it is allowed to access. 
+Before the first page from a given domain is crawled, its robots.txt file is fetched and it is made sure that the crawer only requests pages that it is allowed to access. 
 
 Between two successive GET requests to the same domain, we make a HEAD request.
 
